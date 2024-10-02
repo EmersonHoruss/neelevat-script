@@ -19,6 +19,8 @@ To successfully run the script, ensure you have the following installed:
    pip install pywin32
 3. **Excel**: It is required to have excel installed, to have this it is necessary to be in a windows operative system.
 
+4. **Change the path of files**: for the moment it is hardcoded the path, so, each time you want download the project you have to change the path.
+
 ## Integration with Task Scheduler
 You can schedule the script to run every time you want. We achive this using Task Scheduler.
 
