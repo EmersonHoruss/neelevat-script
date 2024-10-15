@@ -1,0 +1,718 @@
+2024-10-02 11:34:32,473 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:34:34,947 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:34:57,762 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:35:00,057 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:35:23,499 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:35:25,982 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:35:44,127 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:35:46,620 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:36:09,379 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:36:11,868 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:36:24,192 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:36:26,678 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:36:53,617 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:36:56,270 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:37:21,104 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:37:23,563 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:37:43,792 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:37:46,083 - INFO - Script ran successfully! - data refreshed
+2024-10-02 11:58:53,521 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:58:55,604 - INFO - Waiting for query refresh to complete...
+2024-10-02 11:58:58,095 - INFO - Script ran successfully! - data refreshed
+2024-10-02 12:16:25,949 - INFO - Waiting for query refresh to complete...
+2024-10-02 12:16:28,407 - INFO - Script ran successfully! - data refreshed
+2024-10-02 12:34:30,837 - INFO - Waiting for query refresh to complete...
+2024-10-02 12:34:32,902 - INFO - Waiting for query refresh to complete...
+2024-10-02 12:34:35,206 - INFO - Script ran successfully! - data refreshed
+2024-10-02 12:35:27,289 - INFO - Waiting for query refresh to complete...
+2024-10-02 12:35:30,847 - INFO - Script ran successfully! - data refreshed
+2024-10-02 12:36:53,712 - INFO - Waiting for query refresh to complete...
+2024-10-02 12:36:56,207 - INFO - Script ran successfully! - data refreshed
+2024-10-02 19:47:03,101 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-02 19:47:03,101 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-02 20:36:50,598 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-02 20:36:50,601 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-02 23:07:00,744 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-02 23:07:00,753 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-02 23:36:50,471 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-02 23:36:50,474 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-03 09:36:51,248 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-03 09:36:51,252 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-03 10:47:35,693 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-03 10:47:35,693 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-03 11:36:51,763 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-03 11:36:51,763 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-03 12:36:50,241 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-03 12:36:50,241 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-03 13:36:50,502 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-03 13:36:50,505 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-03 15:56:48,100 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-03 15:56:48,421 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-03 16:36:50,835 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-03 16:36:50,839 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-03 17:36:50,756 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-03 17:36:50,759 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-04 15:36:51,250 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-04 15:36:51,258 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-04 18:07:01,498 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-04 18:07:01,505 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-04 18:36:50,612 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-04 18:36:50,616 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-07 09:36:52,583 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-07 09:36:52,615 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-07 14:14:30,430 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-07 14:14:30,440 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-07 14:36:51,556 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-07 14:36:51,556 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-07 15:36:51,296 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-07 15:36:51,312 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-07 16:36:51,344 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-07 16:36:51,348 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-07 17:36:51,301 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-07 17:36:51,301 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-08 03:23:16,145 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-08 03:23:16,145 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-08 04:26:58,212 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-08 04:26:58,212 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-08 11:39:45,185 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-08 11:39:45,200 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-08 15:36:51,430 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-08 15:36:51,446 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-08 16:36:50,948 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-08 16:36:50,948 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-09 10:36:57,516 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-09 10:36:57,534 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-09 11:36:51,337 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-09 11:36:51,341 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-09 12:36:50,975 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-09 12:36:50,979 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-09 13:36:50,957 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-09 13:36:50,957 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-09 15:41:16,109 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-09 15:41:17,048 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-09 16:36:50,820 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-09 16:36:50,824 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-09 18:55:05,703 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-09 18:55:05,826 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 09:36:51,705 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 09:36:51,713 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 10:36:51,162 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 10:36:51,169 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 11:36:51,714 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 11:36:51,777 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 12:36:51,276 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 12:36:51,281 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 13:36:52,098 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 13:36:52,129 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 15:28:00,233 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 15:28:00,233 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 15:36:50,623 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 15:36:50,627 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 17:36:50,905 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 17:36:50,905 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-10 18:36:50,964 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-10 18:36:50,967 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 08:15:41,289 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 08:15:41,310 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 09:01:10,060 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 09:01:10,071 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 09:36:51,058 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 09:36:51,063 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 10:36:51,085 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 10:36:51,089 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 11:39:14,898 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 11:39:14,902 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 12:39:50,490 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 12:39:50,495 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 13:36:51,247 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 13:36:51,251 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 15:08:30,933 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 15:08:30,945 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 15:36:51,237 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 15:36:51,243 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 16:36:51,180 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 16:36:51,184 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 17:36:51,106 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 17:36:51,110 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 18:36:51,194 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 18:36:51,199 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 19:36:51,203 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 19:36:51,207 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-11 23:21:55,829 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-11 23:21:55,833 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-12 15:02:26,312 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-12 15:02:26,318 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-12 16:39:30,452 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-12 16:39:30,456 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-13 03:00:17,105 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-13 03:00:17,109 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-13 11:32:25,963 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-13 11:32:25,969 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-13 13:32:24,582 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-13 13:32:24,582 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-13 14:33:17,043 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-13 14:33:17,046 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 03:00:25,209 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 03:00:25,225 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 08:40:59,351 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 08:40:59,376 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 09:36:51,054 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 09:36:51,057 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 10:36:51,108 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 10:36:51,123 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 11:36:51,155 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 11:36:51,164 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 12:36:51,699 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 12:36:51,705 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 13:36:50,498 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 13:36:50,503 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 14:36:50,422 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 14:36:50,427 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 15:36:50,316 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 15:36:50,319 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 16:36:50,472 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 16:36:50,476 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 19:11:16,782 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 19:11:16,788 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-14 19:36:50,441 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-14 19:36:50,446 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 03:00:24,454 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 03:00:24,454 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 08:30:51,148 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 08:30:51,181 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 08:36:50,509 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 08:36:50,525 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 09:36:50,727 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 09:36:50,734 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 10:36:50,612 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 10:36:50,614 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 11:36:50,552 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 11:36:50,558 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 12:36:50,878 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 12:36:50,908 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 14:33:36,924 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 14:33:37,095 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 14:39:03,233 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 14:39:03,249 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 15:36:52,297 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 15:36:52,328 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 16:36:51,132 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 16:36:51,138 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
+2024-10-15 17:36:51,006 - ERROR - An error occurred: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+2024-10-15 17:36:51,022 - ERROR - Traceback (most recent call last):
+  File "C:\Users\emerson\Downloads\projects\script-neelevat\refresh_excel.py", line 40, in main
+    workbook = excel_app.Workbooks.Open(r'C:\Users\emerson\Downloads\projects\script-neelevat\data.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<COMObject <unknown>>", line 5, in Open
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'Microsoft Excel', "Microsoft Excel cannot access the file 'C:\\Users\\emerson\\Downloads\\projects\\script-neelevat\\data.xlsx'. There are several possible reasons:\n\n• The file name or path does not exist.\n• The file is being used by another program.\n• The workbook you are trying to save has the same name as a currently open workbook.", 'xlmain11.chm', 0, -2146827284), None)
+
